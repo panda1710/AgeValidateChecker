@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Checker</title>
+</head>
+<body>
+    <form action="#">
+       <h1>What's Your Date Of Birth</h1><br>
+       <select name="days" id ="day">
+         <option value="0">day</option>
+         <option value="1">1</option>
+         <option value="2">2</option>
+         <option value="3">3</option>
+         <option value="4">4</option>
+         <option value="5">5</option>
+         <option value="6">6</option>
+         <option value="7">7</option>
+       </select>
+       <select name ="month" id= "month">
+        <option value="0">month</option>
+        <option value="1">January</option>
+        <option value="2">Feburary</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+        <option value="5">May</option>
+        <option value="6">June</option>
+      </select>
+       <select name="years" id ="year">
+        <option value="0">year</option>
+        <option value="1">2008</option>
+        <option value="2">2009</option>
+        <option value="3">2010</option>
+        <option value="4">2011</option>
+        <option value="5">2012</option>
+        <option value="6">2013</option>
+        <option value="6">2014</option>
+      </select>
+       <input type="button" name="submit" value="Submit" onclick="age()" />
+      <!-- <button type="submit" onclick="age()">Next</button>  -->
+      <div id="age"></div>  
+      </form>
+      <script src=checker.js></script>   
+</body>
+</html>
